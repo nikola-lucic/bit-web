@@ -1,0 +1,40 @@
+body{
+    background-color: black
+}
+table{
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+    position: absolute;
+    width:  800px;
+    height: 800px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    border-collapse: separate;
+}
+table td, table th
+{
+    padding: 0; /* 'cellpadding' equivalent */
+}
+th, tr,td{
+    height: 100px;
+    margin: 0px 15px 0px 15px;
+}
+th {
+
+    background-color: red;
+    color: white
+}
+table tr td:nth-child(2){
+    background-image: url("mobile-1976104_640.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+table tr:nth-child(odd){
+    background-color: grey;
+}
+tr:hover, table tr:nth-child(odd):hover{
+    background-color: yellow;
+}

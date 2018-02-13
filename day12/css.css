@@ -1,0 +1,21 @@
+#one{
+    height: 200px;
+    float: right;
+}
+#two{
+    width: 200px;
+    margin: 0 auto;
+}
+#three{
+    width: 200px;
+    height: 200px;
+}
+img{
+    display: block;
+    margin-bottom: 10px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

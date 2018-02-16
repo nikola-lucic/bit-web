@@ -370,7 +370,7 @@ h3, h4{
 ul {
     list-style: none;
     padding: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 ul li{
     padding-bottom: 15px;
@@ -436,33 +436,101 @@ nav{
 nav ul li:nth-child(4){
     padding-bottom: 0;
 }
-main,nav {
+nav {
     margin: 0 40px;
 }
 span{
     margin-right: 10px;
+}
+section:nth-of-type(1),
+section:nth-of-type(2){
+  margin: 0 40px;
+}
+section:nth-of-type(2)>div{
+  background-color: #42a5f5;
+  margin-bottom: 20px;
+  padding:10px;
+}
+section:nth-of-type(2)>div span:nth-child(2){
+  display: block;
+  text-align: center;
+  margin-left: -40px;
+  margin-top: -20px;
+}
+section:nth-of-type(2) h6{
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 0;
+}
+section:nth-of-type(2) p{
+  padding: 0 10px;
+  color: white;
+}
+section:nth-of-type(2) img{
+  width: 80px;
+  border-radius: 50%;
+  padding: 2px;
+  background-color: #42a5f5;
+  border: 3px solid white;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.fa-star-half, 
+.fa-star{
+  color: #ffeb3b;
+}
+section:nth-of-type(3) div{
+  color: white;
+  padding: 20px;
+  display: block;
+}
+section:nth-of-type(3) div h4{
+  color: white;
+}
+section:nth-of-type(3) ul{
+  font-size: 1.2rem;
+}
+address h4{
+  color: white;
+  font-size: 1.2rem;
 }
 .contact, .social{
     margin: 0 auto;
     text-align: center;
     display: inline;
 }
+.contact{
+  background-color: #4caf50; 
+}
+.social{
+  background-color: #f44336;
+}
+.address{
+  background-color: #2196f3;
+}
 .social ul li{
     display: inline;
     padding: 10px;
+}
+form{
+  margin:20px;
 }
 input, label, textarea{
     width: 100%;
     display:block;
     margin: 0 auto;
     margin-bottom: 30px;
-    border: 2px solid #607d8b;
+    border: 1px solid black;
     box-sizing: border-box;
     margin-bottom: 20px;
     line-height: 2;
 }
 textarea{
     margin-right: 0;
+}
+input[placeholder]{
+  padding-left: 10px;
 }
 button{
     margin: 0;
@@ -478,5 +546,44 @@ button{
 button a{
     color: white;
     text-decoration: none;
+}
+.fa-arrow-right{
+  color: #ff9800;
+}
+iframe{
+  border: none;
+  margin-top: 0;
+  padding: 0;
+}
+footer{
+  background-color: #212121; 
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+footer ul{
+  display: block;
+}
+footer ul li{
+  display: inline-block;
+  margin: 0 5px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  header div:nth-child(1){
+    padding-top: 150px;
+  }
+  header h2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+}
+h2 span{
+  border: 5px solid white;
+  border-right: none;
+}
+
 
 }

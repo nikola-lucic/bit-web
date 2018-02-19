@@ -1,0 +1,13 @@
+$color: blue;
+$color2: green;
+$font-stack: Ariel, sans-serfif;
+$solja:10px;
+
+
+p{   
+color: $color;
+background-color:$color2;
+font-family: $font-stack;
+padding:$solja;
+}
+

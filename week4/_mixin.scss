@@ -1,0 +1,14 @@
+@mixin text-shadow($shadow){
+    -webkit-text-shadow:$shadow;
+    -moz-text-shadow:$shadow;
+    -ms-text-shadow:$shadow;
+    text-shadow:$shadow;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+@mixin box-shadow($boxsh){
+    -webkit-box-shadow:$boxsh;
+    -moz-box-shadow:$boxsh;
+    -ms-box-shadow:$boxsh;
+    text-shadow:$boxsh;
+}

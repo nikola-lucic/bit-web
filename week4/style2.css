@@ -1,0 +1,31 @@
+a {
+  display: block;
+  text-decoration: none;
+  font-size: 45px;
+  color: red; }
+  a:visited {
+    color: yellow; }
+  a:hover {
+    background-color: blue;
+    color: green; }
+
+.prvi, .drugi {
+  border: 2px solid red;
+  padding: 10px;
+  margin: 2px;
+  display: block;
+  float: left;
+  width: 31.25%; }
+
+.drugi {
+  border-color: blue; }
+
+p {
+  box-sizing: border-box;
+  width: 342px; }
+
+td {
+  border: 2px solid black;
+  width: 500px 100px; }
+
+/*# sourceMappingURL=style2.css.map */
